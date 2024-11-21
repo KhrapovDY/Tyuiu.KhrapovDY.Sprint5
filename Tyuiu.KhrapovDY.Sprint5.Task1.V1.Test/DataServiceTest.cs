@@ -6,7 +6,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task1.V1.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\Users\User\source\repos\Tyuiu.KhrapovDY.Sprint5\Tyuiu.KhrapovDY.Sprint5.Task0.V11\bin\Debug";
+            string path = Path.GetTempFileName();
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
