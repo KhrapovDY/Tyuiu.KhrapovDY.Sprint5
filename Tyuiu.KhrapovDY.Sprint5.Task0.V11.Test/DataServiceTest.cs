@@ -8,7 +8,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task0.V11.Test
         [TestMethod]
         public void ValidSaveToFileTextData()
         {
-            string path = @"C:\Users\User\source\repos\Tyuiu.KhrapovDY.Sprint5\Tyuiu.KhrapovDY.Sprint5.Task0.V11\bin\Debug\net8.0\OutPutFileTask0.txt";
+            string path = Path.GetTempFileName();
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
