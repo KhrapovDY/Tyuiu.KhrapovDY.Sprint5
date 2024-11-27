@@ -9,7 +9,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task6.V9.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            string path = @"Ñ:\DataSprint5\InPutDataFileTask6V9.txt";
+            string path = @"C:\Users\User\Desktop\DataService5\InPutDataFileTask6V9.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             int wait = 2;
@@ -20,7 +20,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task6.V9.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"Ñ:\DataSprint5\InPutDataFileTask6V9.txt";
+            string path = @"C:\Users\User\Desktop\DataService5\InPutDataFileTask6V9.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
