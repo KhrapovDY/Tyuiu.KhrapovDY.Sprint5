@@ -25,8 +25,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task7.V8
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                  *");
             Console.WriteLine("*************************************************************************************");
 
-            string path = @"С:\DataSprint5\InPutDataFileTask7V8.txt";
-            string pathSaveFile = @"С:\DataSprint5\InPutDataFileTask7V8.txt";
+            string path = @"C:\Users\User\Desktop\DataService5\InPutDataFileTask7V8.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
@@ -34,9 +33,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task7.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                        *");
             Console.WriteLine("*************************************************************************************");
 
-            Console.WriteLine("Находится в файле: ");
-            pathSaveFile = ds.LoadDataAndSave(path);
-            Console.WriteLine(pathSaveFile);
+            Console.WriteLine("Находится в файле: " + ds.LoadDataAndSave(path));
             Console.ReadKey();
 
         }

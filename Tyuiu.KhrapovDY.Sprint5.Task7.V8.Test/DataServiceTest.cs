@@ -9,7 +9,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task7.V8.Test
         [TestMethod]
         public void ValidLoadDataAndSave()
         {
-            string path = @"Ñ:\DataSprint5\InPutDataFileTask7V8.txt";
+            string path = @"Ñ:\Temp\output.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;

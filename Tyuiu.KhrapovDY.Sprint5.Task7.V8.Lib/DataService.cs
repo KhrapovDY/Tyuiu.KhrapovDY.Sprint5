@@ -8,7 +8,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task7.V8.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = @"С:\DataSprint5\InPutDataFileTask7V8.txt";
+            string pathSaveFile = Path.Combine(Path.GetTempPath(), "output.txt");
 
             FileInfo fileInfo = new FileInfo(pathSaveFile);
             bool fileExists = fileInfo.Exists;
