@@ -6,7 +6,7 @@ namespace Tyuiu.KhrapovDY.Sprint5.Task5.V1.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"Ñ:\DataSprint5\InPutDataFileTask5V1.txt";
+            string path = @"C:\Users\User\Desktop\DataService5\InPutDataFileTask5V1.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
